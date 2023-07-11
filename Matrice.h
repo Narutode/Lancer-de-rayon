@@ -13,7 +13,7 @@ class Matrix {
 public:
     Matrix() {
         // Initialiser la matrice avec des valeurs par défaut
-        data.fill({{0.0f, 0.0f, 0.0f, 0.0f}});
+        data.fill({{2.0f,2.0f, 1.0f, 3.0f}});
     }
 
     // Accès à la case (i, j) de la matrice
@@ -33,6 +33,19 @@ public:
 
 // Multiplication de matrices
     Matrix operator*(const Matrix& other) const {
+        Matrix result;
+
+        for (int i = 0; i < 4; ++i) {
+            for (int j = 0; j < 4; ++j) {
+                float sum = 0.0;
+                for (int k = 0; k < 4; ++k) {
+                    sum += data[i][k] * other(k, j);
+                }
+                result(i, j) = sum;
+            }
+        }
+
+        return result;
 
     }
 

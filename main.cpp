@@ -38,8 +38,8 @@ int main() {
         scene.performOperation(operation,width,height,outputname,ombre,materiau);
     }
     Matrix v = Matrix();
-    HVector w = HVector(2,3,2);
-    HVector z = v*w;
+    Matrix w = Matrix();
+    Matrix z = v*w;
 
 // Afficher les valeurs de la matrice v
     std::cout << "Matrix v:" << std::endl;
@@ -50,9 +50,13 @@ int main() {
         std::cout << std::endl;
     }
 
-// Afficher les valeurs de la matrice inverseV
-    std::cout << "Inverse of Matrix v:" << std::endl;
-    std::cout << z.x<<z.y<<z.z<<z.w << " " << std::endl;
+    std::cout << "Matrix z:" << std::endl;
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            std::cout << z(i, j) << " ";
+        }
+        std::cout << std::endl;
+    }
 
     std::cout << "Excécution fini" << std::endl;
     return 0;
