@@ -10,6 +10,8 @@
 #include <fstream>
 #include <sstream>
 #include "scene.h"
+#include "Matrice.h"
+#include "Light.h"
 
 int main() {
     scene scene;
@@ -25,13 +27,32 @@ int main() {
         printf("img null");
     }
     while (std::getline(infile, line)) {
-        std::string operation, wordkey, outputname, widthString, heightString, ombre, materiau;
+        std::string operation, wordkey, outputname, widthString, heightString, ombreString, materiau;
         std::stringstream ss(line);
-        ss >> operation  >> wordkey >> outputname >> widthString >> heightString >> ombre >> materiau;
+        ss >> operation  >> wordkey >> outputname >> widthString >> heightString >> ombreString >> materiau;
         int width = std::stoi(widthString);
         int height = std::stoi(heightString);
+        bool ombre = std::stoi(ombreString);
+
+
         scene.performOperation(operation,width,height,outputname,ombre,materiau);
     }
+    Matrix v = Matrix();
+    HVector w = HVector(2,3,2);
+    HVector z = v*w;
+
+// Afficher les valeurs de la matrice v
+    std::cout << "Matrix v:" << std::endl;
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            std::cout << v(i, j) << " ";
+        }
+        std::cout << std::endl;
+    }
+
+// Afficher les valeurs de la matrice inverseV
+    std::cout << "Inverse of Matrix v:" << std::endl;
+    std::cout << z.x<<z.y<<z.z<<z.w << " " << std::endl;
 
     std::cout << "Excécution fini" << std::endl;
     return 0;

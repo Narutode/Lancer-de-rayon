@@ -11,7 +11,7 @@ class HPoint {
 public:
     float x, y, z, w;
 
-    HPoint(float _x, float _y, float _z) : x(_x), y(_y), z(_z), w(1.0f) {}
+    HPoint(float _x, float _y, float _z, float _w = 1.0f) : x(_x), y(_y), z(_z), w(_w) {}
 
     // Accès aux composantes du point
     float& operator[](int index) {

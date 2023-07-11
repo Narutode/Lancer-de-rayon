@@ -11,8 +11,7 @@ class HVector {
 public:
     float x, y, z, w;
 
-    HVector(float _x, float _y, float _z) : x(_x), y(_y), z(_z), w(0.0f) {}
-
+    HVector(float _x, float _y, float _z, float _w = 0.0f) : x(_x), y(_y), z(_z), w(_w) {}
 
     // Accès aux composantes du vecteur
     float& operator[](int index) {
