@@ -10,7 +10,6 @@ class Entity {
 public:
     Entity() : transformationMatrix(Matrix()) {}
 
-    virtual bool intersect(const Ray&,Point3D& impact) const=0;
     void translate(float x, float y, float z) {
         Matrix translationMatrix;
         translationMatrix(0, 3) = x;

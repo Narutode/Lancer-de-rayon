@@ -163,7 +163,6 @@ CMakeFiles/untitled.dir/main.cpp.obj: \
  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\stb_image_write.h \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\stb_image_resize.h \
  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
@@ -202,17 +201,20 @@ CMakeFiles/untitled.dir/main.cpp.obj: \
  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\scene.h \
  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Point3D.h \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Vector3D.h \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Ray.h \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Plan.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Object.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Material.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Color.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Entity.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Matrice.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\HPoint.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\HVector.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Point3D.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Vector3D.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Ray.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Light.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Plan.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Camera.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Sphere.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Square.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Cube.h \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Cylinder.h \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Light.h
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Cylinder.h

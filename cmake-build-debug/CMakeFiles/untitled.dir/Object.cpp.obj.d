@@ -1,6 +1,8 @@
-CMakeFiles/untitled.dir/Plan.cpp.obj: \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Plan.cpp \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Plan.h \
+CMakeFiles/untitled.dir/Object.cpp.obj: \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Object.cpp \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Object.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Material.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Color.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Entity.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Matrice.h \
  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/array \
@@ -67,7 +69,4 @@ CMakeFiles/untitled.dir/Plan.cpp.obj: \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\HVector.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Point3D.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Vector3D.h \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Ray.h \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Object.h \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Material.h \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Color.h
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Ray.h

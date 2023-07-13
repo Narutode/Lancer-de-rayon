@@ -23,6 +23,24 @@ public:
         impact = localToGlobal(intersection);
         return true;
     }
+    Material getMaterial(const Point3D& p) const {
+        Material material;
+        material.ka = Color(0, 0, 0);  // Composante ambiante
+        material.kd = Color(0.0, 0.0, 1.0);  // Composante diffuse (vert)
+        material.ks = Color(0.0, 0.0, 0.0);  // Composante spéculaire (noir)
+        material.shininess = 0.0;  // Exposant de brillance (aucun effet de spécularité)
+        return material;
+    }
+    Ray getNormal(const Point3D& p, const Point3D& o) const {
+        Point3D lp = globalToLocal(p);
+        Point3D lo = globalToLocal(o);
+
+        Vector3D normal(0, 0, 1);
+        if (lo[2] < 0)
+            normal = -normal;
+
+        return localToGlobal(Ray(lp, normal)).normalized();
+    }
 };
 
 #endif //UNTITLED_SQUARE_H

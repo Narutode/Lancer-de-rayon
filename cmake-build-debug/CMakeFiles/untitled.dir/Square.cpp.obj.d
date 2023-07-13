@@ -68,4 +68,7 @@ CMakeFiles/untitled.dir/Square.cpp.obj: \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\HVector.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Point3D.h \
  C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Vector3D.h \
- C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Ray.h
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Ray.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Object.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Material.h \
+ C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Color.h

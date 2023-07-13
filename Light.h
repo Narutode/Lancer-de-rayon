@@ -9,12 +9,14 @@
 #include "Point3D.h"
 #include "Vector3D.h"
 #include "Ray.h"
-
+#include "Color.h"
 class Light : public Entity {
 public:
     // Constructeur
-    Light() : Entity() {}
-
+    Color id;
+    Color is;
+    Light(const Color& diffuse, const Color& specular) : id(diffuse), is(specular) {}
+    Light() : id(Color()), is(Color()) {}
     // Méthodes pour générer des rayons et des vecteurs
     Ray getRayToLight(const Point3D& p) const {
         Point3D globalOrigin = localToGlobal(Point3D(0, 0, 0));

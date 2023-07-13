@@ -5,11 +5,11 @@
 #ifndef UNTITLED_CUBE_H
 #define UNTITLED_CUBE_H
 
-#include "Entity.h"
 #include "Ray.h"
 #include "Point3D.h"
+#include "Object.h"
 
-class Cube : public Entity {
+class Cube : public Object {
 public:
     float interSide(const Ray& r, int dim, float offset) const {
         float t = -1;
@@ -48,6 +48,37 @@ public:
         }
 
         return false;
+    }
+    Ray getNormal(const Point3D& p, const Point3D& o) const {
+        Point3D lp = globalToLocal(p);
+        Point3D lo = globalToLocal(o);
+        Vector3D v(0, 0, 0);
+
+        if (lp[0] > 0.999)
+            v[0] = 1.0;
+        else if (lp[0] < -0.999)
+            v[0] = -1.0;
+        else if (lp[1] > 0.999)
+            v[1] = 1.0;
+        else if (lp[1] < -0.999)
+            v[1] = -1.0;
+        else if (lp[2] > 0.999)
+            v[2] = 1.0;
+        else if (lp[2] < -0.999)
+            v[2] = -1.0;
+
+        if (lo[0] < 1 && lo[0] > -1 && lo[1] < 1 && lo[1] > -1 && lo[2] < 1 && lo[2] > -1)
+            return localToGlobal(Ray(lp, -v)).normalized();
+        return localToGlobal(Ray(lp, v)).normalized();
+    }
+
+    Material getMaterial(const Point3D& p) const{
+        Material material;
+        material.ka = Color(0, 0, 0);  // Composante ambiante
+        material.kd = Color(0.0, 1.0, 0.0);  // Composante diffuse (vert)
+        material.ks = Color(0.0, 0.0, 0.0);  // Composante spéculaire (noir)
+        material.shininess = 0.0;  // Exposant de brillance (aucun effet de spécularité)
+        return material;
     }
 };
 

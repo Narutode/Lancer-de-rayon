@@ -200,6 +200,54 @@ Cylinder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Cylinder.cpp.s
 .PHONY : Cylinder.cpp.s
 
+Material.obj: Material.cpp.obj
+.PHONY : Material.obj
+
+# target to build an object file
+Material.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Material.cpp.obj
+.PHONY : Material.cpp.obj
+
+Material.i: Material.cpp.i
+.PHONY : Material.i
+
+# target to preprocess a source file
+Material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Material.cpp.i
+.PHONY : Material.cpp.i
+
+Material.s: Material.cpp.s
+.PHONY : Material.s
+
+# target to generate assembly for a file
+Material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Material.cpp.s
+.PHONY : Material.cpp.s
+
+Object.obj: Object.cpp.obj
+.PHONY : Object.obj
+
+# target to build an object file
+Object.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Object.cpp.obj
+.PHONY : Object.cpp.obj
+
+Object.i: Object.cpp.i
+.PHONY : Object.i
+
+# target to preprocess a source file
+Object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Object.cpp.i
+.PHONY : Object.cpp.i
+
+Object.s: Object.cpp.s
+.PHONY : Object.s
+
+# target to generate assembly for a file
+Object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Object.cpp.s
+.PHONY : Object.cpp.s
+
 Plan.obj: Plan.cpp.obj
 .PHONY : Plan.obj
 
@@ -314,6 +362,12 @@ help:
 	@echo ... Cylinder.obj
 	@echo ... Cylinder.i
 	@echo ... Cylinder.s
+	@echo ... Material.obj
+	@echo ... Material.i
+	@echo ... Material.s
+	@echo ... Object.obj
+	@echo ... Object.i
+	@echo ... Object.s
 	@echo ... Plan.obj
 	@echo ... Plan.i
 	@echo ... Plan.s

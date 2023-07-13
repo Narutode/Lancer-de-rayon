@@ -6,8 +6,9 @@
 #define UNTITLED_PLAN_H
 
 #include "Entity.h"
+#include "Object.h"
 
-class Plan : public Entity {
+class Plan : public Object {
 public:
     // ...
 
@@ -29,5 +30,14 @@ public:
             z = -1;
         return localToGlobal(Ray(lp, Vector3D(0, 0, z))).normalized();
     }
+    Material getMaterial(const Point3D& p) {
+        Material material;
+        material.ka = Color(0.1, 0.1, 0.1);  // Composante ambiante
+        material.kd = Color(0.0, 1.0, 0.0);  // Composante diffuse (vert)
+        material.ks = Color(0.0, 0.0, 0.0);  // Composante spéculaire (noir)
+        material.shininess = 0.0;  // Exposant de brillance (aucun effet de spécularité)
+        return material;
+    }
+
 };
 #endif //UNTITLED_PLAN_H

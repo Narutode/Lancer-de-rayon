@@ -166,6 +166,34 @@ CMakeFiles/untitled.dir/Color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Color.cpp.s"
 	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Color.cpp -o CMakeFiles\untitled.dir\Color.cpp.s
 
+CMakeFiles/untitled.dir/Material.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Material.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Material.cpp
+CMakeFiles/untitled.dir/Material.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled.dir/Material.cpp.obj"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Material.cpp.obj -MF CMakeFiles\untitled.dir\Material.cpp.obj.d -o CMakeFiles\untitled.dir\Material.cpp.obj -c C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Material.cpp
+
+CMakeFiles/untitled.dir/Material.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Material.cpp.i"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Material.cpp > CMakeFiles\untitled.dir\Material.cpp.i
+
+CMakeFiles/untitled.dir/Material.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Material.cpp.s"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Material.cpp -o CMakeFiles\untitled.dir\Material.cpp.s
+
+CMakeFiles/untitled.dir/Object.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Object.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Object.cpp
+CMakeFiles/untitled.dir/Object.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled.dir/Object.cpp.obj"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Object.cpp.obj -MF CMakeFiles\untitled.dir\Object.cpp.obj.d -o CMakeFiles\untitled.dir\Object.cpp.obj -c C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Object.cpp
+
+CMakeFiles/untitled.dir/Object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Object.cpp.i"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Object.cpp > CMakeFiles\untitled.dir\Object.cpp.i
+
+CMakeFiles/untitled.dir/Object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Object.cpp.s"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Object.cpp -o CMakeFiles\untitled.dir\Object.cpp.s
+
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.obj" \
@@ -174,7 +202,9 @@ untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/Square.cpp.obj" \
 "CMakeFiles/untitled.dir/Cube.cpp.obj" \
 "CMakeFiles/untitled.dir/Cylinder.cpp.obj" \
-"CMakeFiles/untitled.dir/Color.cpp.obj"
+"CMakeFiles/untitled.dir/Color.cpp.obj" \
+"CMakeFiles/untitled.dir/Material.cpp.obj" \
+"CMakeFiles/untitled.dir/Object.cpp.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
@@ -186,11 +216,13 @@ untitled.exe: CMakeFiles/untitled.dir/Square.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/Cube.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/Cylinder.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/Color.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/Material.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/Object.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linkLibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1
 untitled.exe: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable untitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
