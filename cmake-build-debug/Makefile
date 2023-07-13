@@ -47,10 +47,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmak
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -128,6 +128,78 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
+Color.obj: Color.cpp.obj
+.PHONY : Color.obj
+
+# target to build an object file
+Color.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Color.cpp.obj
+.PHONY : Color.cpp.obj
+
+Color.i: Color.cpp.i
+.PHONY : Color.i
+
+# target to preprocess a source file
+Color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Color.cpp.i
+.PHONY : Color.cpp.i
+
+Color.s: Color.cpp.s
+.PHONY : Color.s
+
+# target to generate assembly for a file
+Color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Color.cpp.s
+.PHONY : Color.cpp.s
+
+Cube.obj: Cube.cpp.obj
+.PHONY : Cube.obj
+
+# target to build an object file
+Cube.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Cube.cpp.obj
+.PHONY : Cube.cpp.obj
+
+Cube.i: Cube.cpp.i
+.PHONY : Cube.i
+
+# target to preprocess a source file
+Cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Cube.cpp.i
+.PHONY : Cube.cpp.i
+
+Cube.s: Cube.cpp.s
+.PHONY : Cube.s
+
+# target to generate assembly for a file
+Cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Cube.cpp.s
+.PHONY : Cube.cpp.s
+
+Cylinder.obj: Cylinder.cpp.obj
+.PHONY : Cylinder.obj
+
+# target to build an object file
+Cylinder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Cylinder.cpp.obj
+.PHONY : Cylinder.cpp.obj
+
+Cylinder.i: Cylinder.cpp.i
+.PHONY : Cylinder.i
+
+# target to preprocess a source file
+Cylinder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Cylinder.cpp.i
+.PHONY : Cylinder.cpp.i
+
+Cylinder.s: Cylinder.cpp.s
+.PHONY : Cylinder.s
+
+# target to generate assembly for a file
+Cylinder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Cylinder.cpp.s
+.PHONY : Cylinder.cpp.s
+
 Plan.obj: Plan.cpp.obj
 .PHONY : Plan.obj
 
@@ -151,6 +223,54 @@ Plan.s: Plan.cpp.s
 Plan.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Plan.cpp.s
 .PHONY : Plan.cpp.s
+
+Sphere.obj: Sphere.cpp.obj
+.PHONY : Sphere.obj
+
+# target to build an object file
+Sphere.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Sphere.cpp.obj
+.PHONY : Sphere.cpp.obj
+
+Sphere.i: Sphere.cpp.i
+.PHONY : Sphere.i
+
+# target to preprocess a source file
+Sphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Sphere.cpp.i
+.PHONY : Sphere.cpp.i
+
+Sphere.s: Sphere.cpp.s
+.PHONY : Sphere.s
+
+# target to generate assembly for a file
+Sphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Sphere.cpp.s
+.PHONY : Sphere.cpp.s
+
+Square.obj: Square.cpp.obj
+.PHONY : Square.obj
+
+# target to build an object file
+Square.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Square.cpp.obj
+.PHONY : Square.cpp.obj
+
+Square.i: Square.cpp.i
+.PHONY : Square.i
+
+# target to preprocess a source file
+Square.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Square.cpp.i
+.PHONY : Square.cpp.i
+
+Square.s: Square.cpp.s
+.PHONY : Square.s
+
+# target to generate assembly for a file
+Square.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Square.cpp.s
+.PHONY : Square.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -185,9 +305,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled
+	@echo ... Color.obj
+	@echo ... Color.i
+	@echo ... Color.s
+	@echo ... Cube.obj
+	@echo ... Cube.i
+	@echo ... Cube.s
+	@echo ... Cylinder.obj
+	@echo ... Cylinder.i
+	@echo ... Cylinder.s
 	@echo ... Plan.obj
 	@echo ... Plan.i
 	@echo ... Plan.s
+	@echo ... Sphere.obj
+	@echo ... Sphere.i
+	@echo ... Sphere.s
+	@echo ... Square.obj
+	@echo ... Square.i
+	@echo ... Square.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

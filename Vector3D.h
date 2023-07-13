@@ -5,6 +5,7 @@
 #ifndef UNTITLED_VECTOR3D_H
 #define UNTITLED_VECTOR3D_H
 #include <cmath>
+#include "Point3D.h"
 
 class Vector3D {
 public:
@@ -49,6 +50,7 @@ public:
         return Vector3D(x * scalar, y * scalar, z * scalar);
     }
 
+
     // Opérateur de division par un scalaire
     Vector3D operator/(float scalar) const {
         return Vector3D(x / scalar, y / scalar, z / scalar);
@@ -58,7 +60,12 @@ public:
     Vector3D operator-() const {
         return Vector3D(-x, -y, -z);
     }
-
+    float operator[](int index) const {
+        if (index == 0) return x;
+        if (index == 1) return y;
+        if (index == 2) return z;
+        return 0.0f;
+    }
 
 };
 

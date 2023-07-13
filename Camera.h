@@ -23,6 +23,9 @@ public:
         Vector3D globalVector = Vector3D(x * 2 - 1, y * 2 - 1, -focal).normalized();
         return Ray(globalOrigin, globalVector);
     }
+    bool intersect(const Ray& ray, Point3D& impact) const override {
+        return false;
+    }
 };
 
 #endif //UNTITLED_CAMERA_H

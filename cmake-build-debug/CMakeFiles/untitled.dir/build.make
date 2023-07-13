@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,45 +72,125 @@ CMakeFiles/untitled.dir/main.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/main.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/main.cpp
 CMakeFiles/untitled.dir/main.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.obj"
-	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/main.cpp.obj -MF CMakeFiles\untitled.dir\main.cpp.obj.d -o CMakeFiles\untitled.dir\main.cpp.obj -c C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\main.cpp
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/main.cpp.obj -MF CMakeFiles\untitled.dir\main.cpp.obj.d -o CMakeFiles\untitled.dir\main.cpp.obj -c C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\main.cpp
 
 CMakeFiles/untitled.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/main.cpp.i"
-	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\main.cpp > CMakeFiles\untitled.dir\main.cpp.i
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\main.cpp > CMakeFiles\untitled.dir\main.cpp.i
 
 CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
-	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\main.cpp -o CMakeFiles\untitled.dir\main.cpp.s
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\main.cpp -o CMakeFiles\untitled.dir\main.cpp.s
 
 CMakeFiles/untitled.dir/Plan.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Plan.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Plan.cpp
 CMakeFiles/untitled.dir/Plan.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Plan.cpp.obj"
-	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Plan.cpp.obj -MF CMakeFiles\untitled.dir\Plan.cpp.obj.d -o CMakeFiles\untitled.dir\Plan.cpp.obj -c C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Plan.cpp
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Plan.cpp.obj -MF CMakeFiles\untitled.dir\Plan.cpp.obj.d -o CMakeFiles\untitled.dir\Plan.cpp.obj -c C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Plan.cpp
 
 CMakeFiles/untitled.dir/Plan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Plan.cpp.i"
-	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Plan.cpp > CMakeFiles\untitled.dir\Plan.cpp.i
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Plan.cpp > CMakeFiles\untitled.dir\Plan.cpp.i
 
 CMakeFiles/untitled.dir/Plan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Plan.cpp.s"
-	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Plan.cpp -o CMakeFiles\untitled.dir\Plan.cpp.s
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Plan.cpp -o CMakeFiles\untitled.dir\Plan.cpp.s
+
+CMakeFiles/untitled.dir/Sphere.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Sphere.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Sphere.cpp
+CMakeFiles/untitled.dir/Sphere.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Sphere.cpp.obj"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Sphere.cpp.obj -MF CMakeFiles\untitled.dir\Sphere.cpp.obj.d -o CMakeFiles\untitled.dir\Sphere.cpp.obj -c C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Sphere.cpp
+
+CMakeFiles/untitled.dir/Sphere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Sphere.cpp.i"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Sphere.cpp > CMakeFiles\untitled.dir\Sphere.cpp.i
+
+CMakeFiles/untitled.dir/Sphere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Sphere.cpp.s"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Sphere.cpp -o CMakeFiles\untitled.dir\Sphere.cpp.s
+
+CMakeFiles/untitled.dir/Square.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Square.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Square.cpp
+CMakeFiles/untitled.dir/Square.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Square.cpp.obj"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Square.cpp.obj -MF CMakeFiles\untitled.dir\Square.cpp.obj.d -o CMakeFiles\untitled.dir\Square.cpp.obj -c C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Square.cpp
+
+CMakeFiles/untitled.dir/Square.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Square.cpp.i"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Square.cpp > CMakeFiles\untitled.dir\Square.cpp.i
+
+CMakeFiles/untitled.dir/Square.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Square.cpp.s"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Square.cpp -o CMakeFiles\untitled.dir\Square.cpp.s
+
+CMakeFiles/untitled.dir/Cube.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Cube.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Cube.cpp
+CMakeFiles/untitled.dir/Cube.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled.dir/Cube.cpp.obj"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Cube.cpp.obj -MF CMakeFiles\untitled.dir\Cube.cpp.obj.d -o CMakeFiles\untitled.dir\Cube.cpp.obj -c C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Cube.cpp
+
+CMakeFiles/untitled.dir/Cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Cube.cpp.i"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Cube.cpp > CMakeFiles\untitled.dir\Cube.cpp.i
+
+CMakeFiles/untitled.dir/Cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Cube.cpp.s"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Cube.cpp -o CMakeFiles\untitled.dir\Cube.cpp.s
+
+CMakeFiles/untitled.dir/Cylinder.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Cylinder.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Cylinder.cpp
+CMakeFiles/untitled.dir/Cylinder.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled.dir/Cylinder.cpp.obj"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Cylinder.cpp.obj -MF CMakeFiles\untitled.dir\Cylinder.cpp.obj.d -o CMakeFiles\untitled.dir\Cylinder.cpp.obj -c C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Cylinder.cpp
+
+CMakeFiles/untitled.dir/Cylinder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Cylinder.cpp.i"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Cylinder.cpp > CMakeFiles\untitled.dir\Cylinder.cpp.i
+
+CMakeFiles/untitled.dir/Cylinder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Cylinder.cpp.s"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Cylinder.cpp -o CMakeFiles\untitled.dir\Cylinder.cpp.s
+
+CMakeFiles/untitled.dir/Color.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Color.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Color.cpp
+CMakeFiles/untitled.dir/Color.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled.dir/Color.cpp.obj"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Color.cpp.obj -MF CMakeFiles\untitled.dir\Color.cpp.obj.d -o CMakeFiles\untitled.dir\Color.cpp.obj -c C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Color.cpp
+
+CMakeFiles/untitled.dir/Color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Color.cpp.i"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Color.cpp > CMakeFiles\untitled.dir\Color.cpp.i
+
+CMakeFiles/untitled.dir/Color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Color.cpp.s"
+	C:\Users\zheng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9161.40\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\Color.cpp -o CMakeFiles\untitled.dir\Color.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.obj" \
-"CMakeFiles/untitled.dir/Plan.cpp.obj"
+"CMakeFiles/untitled.dir/Plan.cpp.obj" \
+"CMakeFiles/untitled.dir/Sphere.cpp.obj" \
+"CMakeFiles/untitled.dir/Square.cpp.obj" \
+"CMakeFiles/untitled.dir/Cube.cpp.obj" \
+"CMakeFiles/untitled.dir/Cylinder.cpp.obj" \
+"CMakeFiles/untitled.dir/Color.cpp.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled.exe: CMakeFiles/untitled.dir/main.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/Plan.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/Sphere.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/Square.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/Cube.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/Cylinder.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/Color.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linkLibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1
 untitled.exe: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zheng\OneDrive\Documents\GitHub\Lancer-de-rayon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable untitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

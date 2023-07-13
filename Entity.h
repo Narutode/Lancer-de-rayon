@@ -10,6 +10,7 @@ class Entity {
 public:
     Entity() : transformationMatrix(Matrix()) {}
 
+    virtual bool intersect(const Ray&,Point3D& impact) const=0;
     void translate(float x, float y, float z) {
         Matrix translationMatrix;
         translationMatrix(0, 3) = x;
@@ -62,6 +63,7 @@ public:
         return Point3D(transformedPoint.x, transformedPoint.y, transformedPoint.z);
     }
 
+
     Vector3D localToGlobal(const Vector3D& vector) const {
         HVector hVector(vector.x, vector.y, vector.z, 0.0);
         HVector transformedVector = transformationMatrix * hVector;
@@ -80,6 +82,17 @@ public:
         HVector hVector(vector.x, vector.y, vector.z, 0.0);
         HVector transformedVector = inverseMatrix * hVector;
         return Vector3D(transformedVector.x, transformedVector.y, transformedVector.z);
+    }
+    Ray localToGlobal(const Ray& ray) const {
+        Point3D origin = localToGlobal(ray.origin);
+        Vector3D vector = localToGlobal(ray.vector);
+        return Ray(origin, vector);
+    }
+
+    Ray globalToLocal(const Ray& ray) const {
+        Point3D origin = globalToLocal(ray.origin);
+        Vector3D vector = globalToLocal(ray.vector);
+        return Ray(origin, vector);
     }
 
 private:

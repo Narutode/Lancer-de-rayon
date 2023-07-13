@@ -37,27 +37,7 @@ int main() {
 
         scene.performOperation(operation,width,height,outputname,ombre,materiau);
     }
-    Matrix v = Matrix();
-    Matrix w = Matrix();
-    Matrix z = v*w;
-
-// Afficher les valeurs de la matrice v
-    std::cout << "Matrix v:" << std::endl;
-    for (int i = 0; i < 4; i++) {
-        for (int j = 0; j < 4; j++) {
-            std::cout << v(i, j) << " ";
-        }
-        std::cout << std::endl;
-    }
-
-    std::cout << "Matrix z:" << std::endl;
-    for (int i = 0; i < 4; i++) {
-        for (int j = 0; j < 4; j++) {
-            std::cout << z(i, j) << " ";
-        }
-        std::cout << std::endl;
-    }
-
+    
     std::cout << "Excécution fini" << std::endl;
     return 0;
 }
