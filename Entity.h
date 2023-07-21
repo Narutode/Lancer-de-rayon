@@ -63,6 +63,7 @@ public:
     }
 
 
+
     Vector3D localToGlobal(const Vector3D& vector) const {
         HVector hVector(vector.x, vector.y, vector.z, 0.0);
         HVector transformedVector = transformationMatrix * hVector;

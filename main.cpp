@@ -26,6 +26,13 @@
 void performOperation(const std::string& operation, int width, int height, const std::string& outputname, bool ombre, const std::string& materiau);
 
 Color getImpactColor(const Ray& ray, const Object& obj, const Point3D& impact, const Scene& scene);
+
+void loadTextureImage(const std::string& texture);
+
+std::vector<unsigned char> textureImage;
+int textureWidth = 512;
+int textureHeight = 512;
+
 int main() {
     std::ifstream infile("process.txt");
     if (!infile.is_open()) {
@@ -45,28 +52,23 @@ int main() {
         performOperation(operation, width, height, outputname, ombre, materiau);
     }
 
-    std::cout << "Exécution terminée" << std::endl;
+    std::cout << "Execution terminee" << std::endl;
     return 0;
 }
 
 void performOperation(const std::string& operation, int width, int height, const std::string& outputname, bool ombre, const std::string& materiau) {
     std::vector<unsigned char> image(width * height * 3);
     Camera camera(45);
-    camera.translate(2.2, 2.2, 100);
+    camera.translate(1.1, 1.1, 100);
     Scene scene(Color(0.1,0.1,0.1),Color(0.2,0.2,0.2));
     Color d(1.0,1.0,1.0);
     Color s(1.0,1.0,1.0);
     Light light(d,s);
-    light.translate(10,10,-5);
-    scene.addLight(&light);
 
 
-    if (operation == "plan") {
-        /*Plan plan;
-        plan.translate(10, 10, 10);
-        scene.addObject(&plan);*/
-    }
-    else if (operation == "cube") {
+
+    if (operation == "exemple1") {
+        light.translate(10,10,-5);
         Cube cube;
         cube.translate(-2, 0, -2);
         cube.rotateZ(45);
@@ -88,26 +90,66 @@ void performOperation(const std::string& operation, int width, int height, const
         sphere2.translate(-3, -2, 0);
         scene.addObject(&sphere2);
     }
-    else if (operation == "carre") {
-        // Code pour l'opération "carre"
+    else if (operation == "exemple2") {
+        light.translate(-10,-10,-5);
+        Cube cube;
+        cube.translate(-2, 0, -2);
+        cube.rotateZ(45);
+        cube.rotateX(45);
+        cube.rotateY(45);
+        cube.scale(0.5f);
+        scene.addObject(&cube);
+        Square carre;
+        carre.translate(2, 2, 0);
+        scene.addObject(&carre);
+
+        Cylinder cylinder;
+        cylinder.translate(4, 4, 0);
+        scene.addObject(&cylinder);
+        Sphere sphere;
+        sphere.translate(1, -2, 0);
+        scene.addObject(&sphere);
+        Sphere sphere2;
+        sphere2.translate(-3, -2, 0);
+        scene.addObject(&sphere2);
     }
-    else if (operation == "triangle") {
-        // Code pour l'opération "triangle"
+    else if (operation == "exemple3") {
+        light.translate(-10,10,-5);
+        Cube cube;
+        cube.translate(-2, 0, -2);
+        cube.rotateZ(45);
+        cube.rotateX(45);
+        cube.rotateY(45);
+        cube.scale(0.5f);
+        scene.addObject(&cube);
+        Square carre;
+        carre.translate(2, 2, 0);
+        scene.addObject(&carre);
+
+        Cylinder cylinder;
+        cylinder.translate(4, 4, 0);
+        scene.addObject(&cylinder);
+        Sphere sphere;
+        sphere.translate(1, -2, 0);
+        scene.addObject(&sphere);
+        Sphere sphere2;
+        sphere2.translate(-3, -2, 0);
+        scene.addObject(&sphere2);
     }
-    else if (operation == "sphere") {
-        // Code pour l'opération "sphere"
-    }
-    else if (operation == "cylindre") {
-        // Code pour l'opération "cylindre"
-    }
-    else if (operation == "cone") {
-        // Code pour l'opération "cone"
+    else if (operation == "exemple4") {
+        Plan plan;
+        plan.translate(10, 10, 10);
+        scene.addObject(&plan);
+
     }
     else {
         std::cerr << "Opération non prise en charge : " << operation << std::endl;
         return;
     }
 
+    scene.addLight(&light);
+    std::string textureFilename = "texture.png";
+    loadTextureImage(textureFilename);
     for (int y = 0; y < height; ++y) {
         for (int x = 0; x < width; ++x) {
             // Calcul des coordonnées du pixel dans l'espace de projection
@@ -123,14 +165,41 @@ void performOperation(const std::string& operation, int width, int height, const
 
             if (intersectedObject != nullptr) {
 
-                // Récupération de la couleur de l'impact
-                Color color = getImpactColor(ray, *intersectedObject, impact, scene);
+                if(ombre){
+                    if(materiau == "none"){
+                        // Récupération de la couleur de l'impact
+                        Color color = getImpactColor(ray, *intersectedObject, impact, scene);
 
-                // Coloriage du pixel avec la couleur de l'impact
-                image[(y * width + x) * 3] = static_cast<unsigned char>(color[0] * 255);     // Composante rouge
-                image[(y * width + x) * 3 + 1] = static_cast<unsigned char>(color[1] * 255); // Composante verte
-                image[(y * width + x) * 3 + 2] = static_cast<unsigned char>(color[2] * 255); // Composante bleue
+                        // Coloriage du pixel avec la couleur de l'impact
+                        image[(y * width + x) * 3] = static_cast<unsigned char>(color[0] * 255);     // Composante rouge
+                        image[(y * width + x) * 3 + 1] = static_cast<unsigned char>(color[1] * 255); // Composante verte
+                        image[(y * width + x) * 3 + 2] = static_cast<unsigned char>(color[2] * 255); // Composante bleue
+                    }
+                    else{
+                        Point3D textureCoords = intersectedObject->getTextureCoordinates(impact);
 
+                        // Conversion des coordonnées de texture en coordonnées de pixel
+                        int texX = static_cast<int>(textureCoords[0] * textureWidth);
+                        int texY = static_cast<int>(textureCoords[1] * textureHeight);
+                        // Récupération de la couleur de l'impact
+                        unsigned char r = textureImage[(texY * textureWidth + texX) * 3];
+                        unsigned char g = textureImage[(texY * textureWidth + texX) * 3 + 1];
+                        unsigned char b = textureImage[(texY * textureWidth + texX) * 3 + 2];
+
+                        // Application de la couleur du pixel comme couleur diffuse du matériau
+                        image[(y * width + x) * 3] = r;
+                        image[(y * width + x) * 3 + 1] = g;
+                        image[(y * width + x) * 3 + 2] = b;
+                    }
+
+                }
+                else{
+                    Color color = intersectedObject->getMaterial(impact).kd;
+                    // Coloriage du pixel avec la couleur de l'impact
+                    image[(y * width + x) * 3] = static_cast<unsigned char>(color[0] * 255);     // Composante rouge
+                    image[(y * width + x) * 3 + 1] = static_cast<unsigned char>(color[1] * 255); // Composante verte
+                    image[(y * width + x) * 3 + 2] = static_cast<unsigned char>(color[2] * 255); // Composante bleue
+                }
             }
             else {
                 // Coloriage du pixel avec la couleur d'arrière-plan
@@ -145,6 +214,18 @@ void performOperation(const std::string& operation, int width, int height, const
     // Enregistrement de l'image au format JPG
     stbi_write_jpg(outputname.c_str(), width, height, 3, image.data(), 100);
 }
+
+void loadTextureImage(const std::string& textureFilename) {
+    int channels;
+    unsigned char* image = stbi_load(textureFilename.c_str(), &textureWidth, &textureHeight, &channels, 0);
+    if (!image) {
+        std::cerr << "Erreur lors du chargement de l'image de texture : " << textureFilename << std::endl;
+        exit(1);
+    }
+    textureImage.assign(image, image + textureWidth * textureHeight * channels);
+    stbi_image_free(image);
+}
+
 Color getImpactColor(const Ray& ray, const Object& obj, const Point3D& impact, const Scene& scene) {
     Material m = obj.getMaterial(impact);
     Ray normal = obj.getNormal(impact, ray.origin);

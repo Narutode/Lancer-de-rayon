@@ -1,1 +1,3 @@
-cube in exemple.jpg 1000 1000 1 ligne
+exemple1 in rendu1.jpg 1000 1000 1 none
+exemple2 in rendu2.jpg 1000 1000 0 none
+exemple3 in rendu3.jpg 1000 1000 1 ligne

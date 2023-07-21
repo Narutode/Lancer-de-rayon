@@ -666,6 +666,9 @@ CMakeFiles/untitled.dir/main.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/L
   C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Cube.h \
   C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Cylinder.h
 
+CMakeFiles/untitled.dir/test.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/test.cpp \
+  C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/test.h
+
 
 C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Color.cpp:
 
@@ -746,6 +749,8 @@ C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/m
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/x86_64-w64-mingw32/include/pthread.h:
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
+
+C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/test.h:
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h:
 
@@ -1120,3 +1125,5 @@ C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/m
 C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Light.h:
 
 C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Camera.h:
+
+C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/test.cpp:

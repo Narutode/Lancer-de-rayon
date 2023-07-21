@@ -19,8 +19,10 @@ public:
 
     // Méthode pour obtenir un rayon correspondant à un point de l'écran
     Ray getRay(float x, float y) const {
-        Point3D  globalOrigin = localToGlobal(Point3D(0, 0, 0));
-        Vector3D globalVector = Vector3D(x * 2 - 1, y * 2 - 1, -focal).normalized();
+        float pixelX = 2 * x - 1;
+        float pixelY = 2 * y- 1;
+        Point3D  globalOrigin = localToGlobal(Point3D(pixelX, pixelY, 0));
+        Vector3D globalVector = Vector3D(globalOrigin.x, globalOrigin.y, -focal).normalized();
         return Ray(globalOrigin, globalVector);
     }
 };

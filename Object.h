@@ -13,6 +13,7 @@ public:
     virtual Material getMaterial(const Point3D& p) const = 0;
     virtual Ray getNormal(const Point3D& p, const Point3D& o) const = 0;
     virtual bool intersect(const Ray& ray, Point3D& impact) const = 0;
+    virtual Point3D getTextureCoordinates(const Point3D& p) const = 0;
 };
 
 #endif //UNTITLED_OBJECT_H

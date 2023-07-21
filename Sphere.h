@@ -61,6 +61,16 @@ public:
         material.shininess = 0.0;  // Exposant de brillance (aucun effet de spécularité)
         return material;
     }
+    Point3D getTextureCoordinates(const Point3D& p) const {
+        Point3D lp = globalToLocal(p);
+        float rho = std::sqrt(lp.dot(lp));
+        float theta = std::atan2(lp[1], lp[0]);
+        float sigma = std::acos(lp[2] / rho);
+        float x = -theta / (2 * M_PI) + 0.5;
+        float y = sigma / M_PI;
+
+        return Point3D(x, y, 0);
+    }
 };
 
 

@@ -41,6 +41,10 @@ public:
 
         return localToGlobal(Ray(lp, normal)).normalized();
     }
+    Point3D getTextureCoordinates(const Point3D& p) const {
+        Point3D lp = globalToLocal(p);
+        return Point3D(lp[0] / 2.0 + 0.5, lp[1] / 2.0 + 0.5, 0.0);
+    }
 };
 
 #endif //UNTITLED_SQUARE_H

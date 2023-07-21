@@ -80,6 +80,20 @@ public:
         material.shininess = 0.0;  // Exposant de brillance (aucun effet de spécularité)
         return material;
     }
+    Point3D getTextureCoordinates(const Point3D& p) const {
+        Point3D lp = globalToLocal(p);
+        if (lp[0] > 0.999 || lp[0] < -0.999) {
+            return Point3D(lp[2] / 2 + 0.5, lp[1] / 2 + 0.5, 0);
+        }
+        if (lp[1] > 0.999 || lp[1] < -0.999) {
+            return Point3D(lp[0] / 2 + 0.5, lp[2] / 2 + 0.5, 0);
+        }
+        if (lp[2] > 0.999 || lp[2] < -0.999) {
+            return Point3D(lp[0] / 2 + 0.5, lp[1] / 2 + 0.5, 0);
+        }
+        return Point3D(0, 0, 0);
+    }
+
 };
 
 

@@ -52,6 +52,15 @@ class Cylinder: public Object {
 
         return localToGlobal(Ray(lp, Vector3D(-lp[0], 0, -lp[2]))).normalized();
     }
+    Point3D getTextureCoordinates(const Point3D& p) const {
+        Point3D lp = globalToLocal(p);
+        float x = lp[0] - static_cast<int>(lp[0]);
+        float y = lp[1] - static_cast<int>(lp[1]);
+        if (x < 0) x += 1.0;
+        if (y < 0) y += 1.0;
+
+        return Point3D(x, y, 0);
+    }
 };
 
 
