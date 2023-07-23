@@ -5,9 +5,30 @@
 #ifndef UNTITLED_CYLINDER_H
 #define UNTITLED_CYLINDER_H
 #include "Object.h"
+#include <vector>
 
 class Cylinder: public Object {
     public:
+    Cylinder() {
+        // Ajouter ici les points du cylindre
+        // Exemple : points.push_back(Point3D(x, y, z));
+
+        // Initialiser minimumY et maximumY avec la première coordonnée Y
+        if (!points.empty()) {
+            minimumY = points[0][1];
+            maximumY = points[0][1];
+        }
+
+        // Parcourir tous les points pour trouver les valeurs minimale et maximale de Y
+        for (const Point3D& point : points) {
+            if (point[1] < minimumY) {
+                minimumY = point[1];
+            }
+            if (point[1] > maximumY) {
+                maximumY = point[1];
+            }
+        }
+    }
         bool intersect(const Ray& ray, Point3D& impact) const {
             Ray r = globalToLocal(ray).normalized();
 
@@ -53,14 +74,26 @@ class Cylinder: public Object {
         return localToGlobal(Ray(lp, Vector3D(-lp[0], 0, -lp[2]))).normalized();
     }
     Point3D getTextureCoordinates(const Point3D& p) const {
-        Point3D lp = globalToLocal(p);
-        float x = lp[0] - static_cast<int>(lp[0]);
-        float y = lp[1] - static_cast<int>(lp[1]);
-        if (x < 0) x += 1.0;
-        if (y < 0) y += 1.0;
+        // Transformation des coordonnées locales en coordonnées cylindriques
+        float radius = std::sqrt(p[0] * p[0] + p[2] * p[2]);
+        float angle = std::atan2(p[2], p[0]);
 
-        return Point3D(x, y, 0);
+        // Conversion de l'angle en coordonnées de texture (dans l'intervalle [0, 1])
+        float texX = (angle + M_PI) / (2 * M_PI);
+        float texY = (p[1] - minimumY) / (maximumY - minimumY);
+
+        // Vérifier que les coordonnées de texture sont dans l'intervalle [0, 1]
+        if (texX < 0.0f) texX = 0.0f;
+        if (texX > 1.0f) texX = 1.0f;
+        if (texY < 0.0f) texY = 0.0f;
+        if (texY > 1.0f) texY = 1.0f;
+
+        return Point3D(texX, texY, 0.0f);
     }
+private:
+    std::vector<Point3D> points;
+    float minimumY;
+    float maximumY;
 };
 
 
