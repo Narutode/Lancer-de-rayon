@@ -48,18 +48,7 @@ int main() {
         int width = std::stoi(widthString);
         int height = std::stoi(heightString);
         bool ombre = std::stoi(ombreString);
-        if(materiau=="danier"){
-            std::string textureFilename = "texturedanier.png";
-            loadTextureImage(textureFilename);
-        }
-        if(materiau=="ligne"){
-            std::string textureFilename = "textureligne.png";
-            loadTextureImage(textureFilename);
-        }
-        if(materiau=="texture"){
-            std::string textureFilename = "texture_output.jpg";
-            loadTextureImage(textureFilename);
-        }
+
         performOperation(operation, width, height, outputname, ombre, materiau);
     }
 
@@ -131,7 +120,7 @@ void performOperation(const std::string& operation, int width, int height, const
         cube.rotateZ(45);
         cube.rotateX(45);
         cube.rotateY(45);
-        cube.scale(1.0f);
+        cube.scale(0.5f);
         scene.addObject(&cube);
         Square carre;
         carre.translate(2, 2, 0);
@@ -142,7 +131,6 @@ void performOperation(const std::string& operation, int width, int height, const
         scene.addObject(&cylinder);
         Sphere sphere;
         sphere.translate(1, -2, 0);
-        sphere.rotateX(90);
         scene.addObject(&sphere);
         Sphere sphere2;
         sphere2.translate(-3, -2, 0);
@@ -160,7 +148,8 @@ void performOperation(const std::string& operation, int width, int height, const
     }
 
     scene.addLight(&light);
-
+    std::string textureFilename = "texture.png";
+    loadTextureImage(textureFilename);
     for (int y = 0; y < height; ++y) {
         for (int x = 0; x < width; ++x) {
             // Calcul des coordonnées du pixel dans l'espace de projection
@@ -189,23 +178,13 @@ void performOperation(const std::string& operation, int width, int height, const
                     else{
                         Point3D textureCoords = intersectedObject->getTextureCoordinates(impact);
 
-                        // Vérifier que les coordonnées de texture sont dans l'intervalle [0, 1]
-                        float texX = textureCoords[0];
-                        float texY = textureCoords[1];
-
-                        if (texX < 0.0f) texX = 0.0f;
-                        if (texX > 1.0f) texX = 1.0f;
-                        if (texY < 0.0f) texY = 0.0f;
-                        if (texY > 1.0f) texY = 1.0f;
-
                         // Conversion des coordonnées de texture en coordonnées de pixel
-                        int pixelX = static_cast<int>(texX * (textureWidth - 1));
-                        int pixelY = static_cast<int>(texY * (textureHeight - 1));
-
-                        // Récupération de la couleur de l'impact depuis la texture
-                        unsigned char r = textureImage[(pixelY * textureWidth + pixelX) * 3];
-                        unsigned char g = textureImage[(pixelY * textureWidth + pixelX) * 3 + 1];
-                        unsigned char b = textureImage[(pixelY * textureWidth + pixelX) * 3 + 2];
+                        int texX = static_cast<int>(textureCoords[0] * textureWidth);
+                        int texY = static_cast<int>(textureCoords[1] * textureHeight);
+                        // Récupération de la couleur de l'impact
+                        unsigned char r = textureImage[(texY * textureWidth + texX) * 3];
+                        unsigned char g = textureImage[(texY * textureWidth + texX) * 3 + 1];
+                        unsigned char b = textureImage[(texY * textureWidth + texX) * 3 + 2];
 
                         // Application de la couleur du pixel comme couleur diffuse du matériau
                         image[(y * width + x) * 3] = r;
@@ -264,12 +243,7 @@ Color getImpactColor(const Ray& ray, const Object& obj, const Point3D& impact, c
         if (beta > 0)
             c += (light->is) * m.ks * pow(beta, m.shininess);
     }
-    if(c.r>1 ) c.r=1;
-    if(c.g>1 ) c.g=1;
-    if(c.b>1 ) c.b=1;
-    if(c.b<0 ) c.b=0;
-    if(c.g<0 ) c.g=0;
-    if(c.r<0 ) c.r=0;
+
     return c;
 }
 

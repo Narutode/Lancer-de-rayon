@@ -1,6 +1,3 @@
-exemple1 in rendu1.jpg 512 512 1 none
-exemple2 in rendu2.jpg 512 512 0 none
-exemple3 in rendu3.jpg 2000 2000 1 ligne
-exemple3 in rendu4.jpg 2000 2000 1 danier
-exemple4 in rendu5.jpg 2000 2000 1 danier
-exemple3 in rendu6.jpg 2000 2000 1 texture
+exemple1 in rendu1.jpg 1000 1000 1 none
+exemple2 in rendu2.jpg 1000 1000 0 none
+exemple3 in rendu3.jpg 1000 1000 1 ligne
