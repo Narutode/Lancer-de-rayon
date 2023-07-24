@@ -148,7 +148,23 @@ CMakeFiles/untitled.dir/Cylinder.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitH
   C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/HVector.h \
   C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Point3D.h \
   C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Vector3D.h \
-  C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Ray.h
+  C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Ray.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
+  C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc
 
 CMakeFiles/untitled.dir/Material.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Material.cpp \
   C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Material.h \
@@ -666,9 +682,6 @@ CMakeFiles/untitled.dir/main.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/L
   C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Cube.h \
   C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Cylinder.h
 
-CMakeFiles/untitled.dir/test.cpp.obj: C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/test.cpp \
-  C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/test.h
-
 
 C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Color.cpp:
 
@@ -749,8 +762,6 @@ C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/m
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/x86_64-w64-mingw32/include/pthread.h:
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
-
-C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/test.h:
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h:
 
@@ -860,6 +871,36 @@ C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Square.cpp:
 
 C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Cylinder.h:
 
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h:
+
+C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc:
+
 C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Material.cpp:
 
 C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Plan.cpp:
@@ -892,10 +933,6 @@ C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/m
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h:
 
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h:
-
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h:
-
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h:
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h:
@@ -912,8 +949,6 @@ C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/m
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
 
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h:
-
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable.h:
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h:
@@ -925,10 +960,6 @@ C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/m
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h:
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo:
-
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h:
-
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new:
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h:
 
@@ -984,12 +1015,6 @@ C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/m
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string:
 
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h:
-
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
-
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h:
-
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h:
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h:
@@ -1001,10 +1026,6 @@ C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/m
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h:
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h:
-
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h:
-
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h:
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string_view:
 
@@ -1068,16 +1089,6 @@ C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/m
 
 C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/stb_image_write.h:
 
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector:
-
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h:
-
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h:
-
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h:
-
-C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc:
-
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h:
 
 C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h:
@@ -1125,5 +1136,3 @@ C:/Users/zheng/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/m
 C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Light.h:
 
 C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Camera.h:
-
-C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/test.cpp:

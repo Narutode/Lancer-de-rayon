@@ -17,8 +17,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/Square.cpp.obj.d"
   "CMakeFiles/untitled.dir/main.cpp.obj"
   "CMakeFiles/untitled.dir/main.cpp.obj.d"
-  "CMakeFiles/untitled.dir/test.cpp.obj"
-  "CMakeFiles/untitled.dir/test.cpp.obj.d"
   "libuntitled.dll.a"
   "untitled.exe"
   "untitled.exe.manifest"

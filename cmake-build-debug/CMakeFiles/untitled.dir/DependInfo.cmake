@@ -17,7 +17,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Sphere.cpp" "CMakeFiles/untitled.dir/Sphere.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Sphere.cpp.obj.d"
   "C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/Square.cpp" "CMakeFiles/untitled.dir/Square.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Square.cpp.obj.d"
   "C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/main.cpp" "CMakeFiles/untitled.dir/main.cpp.obj" "gcc" "CMakeFiles/untitled.dir/main.cpp.obj.d"
-  "C:/Users/zheng/OneDrive/Documents/GitHub/Lancer-de-rayon/test.cpp" "CMakeFiles/untitled.dir/test.cpp.obj" "gcc" "CMakeFiles/untitled.dir/test.cpp.obj.d"
   )
 
 # Targets to which this target links.
